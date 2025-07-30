@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://ambikasecondaryschool.edu.np/img/logoambika.png" type="image/x-icon">   
+    <title>Shree Ambika Secondary School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" style="font-size:1vw; color: rgba(0, 0, 0, 0.778);">
+             <img width="20px" height="20px" src="https://ambikasecondaryschool.edu.np/img/logoambika.png" alt="">
+              Shree Ambika Secondary School
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" class="nav-link" onclick="showSection('about')">About</a></li>
+                <li><a href="#" class="nav-link" onclick="showSection('courses')">Courses</a></li>
+                <li><a href="#" class="nav-link" onclick="showSection('admissions')">Admissions</a></li>
+                <li><a href="#" class="nav-link" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Shree Ambika Secondary School</h1>
+                <p>Shaping Future Leaders Through Quality Education</p>
+                <a href="#" class="btn" onclick="showSection('admissions')">Apply Now</a>
+            </div>
+        </div>
+
+        <!-- Welcome Message -->
+        <section class="welcome">
+            <div class="container">
+                <div class="welcome-content" data-aos="fade-up">
+                    <div class="welcome-image">
+                        <img src="https://ambikasecondaryschool.edu.np/static/img/imageBackground1.jpg" alt="School Building">
+                    </div>
+                    <div class="welcome-text">
+                        <h2>Welcome to Our Institution</h2>
+                        <p>At Shree Ambika Secondary School, we believe in nurturing young minds and empowering them with the knowledge and skills needed to excel in their chosen fields. Our state-of-the-art facilities, experienced faculty, and innovative teaching methods create an environment where students can thrive and reach their full potential.</p>
+                        <p>We are committed to providing quality education that goes beyond textbooks, fostering critical thinking, creativity, and character development in every student who walks through our doors.</p>
+                        <a href="#" class="btn" onclick="showSection('about')">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Principal Message -->
+        <section class="principal">
+            <div class="container">
+                <div class="principal-content" data-aos="fade-up">
+                    <div class="welcome-text">
+                        <h2>Message from Our Principal</h2>
+                        <p>"Education is the most powerful weapon which you can use to change the world. At Shree Ambika Secondary School, we are dedicated to providing an educational experience that not only imparts knowledge but also builds character and instills values that will guide our students throughout their lives."</p>
+                        <p>"Our mission is to create an inclusive learning environment where every student feels valued, challenged, and supported in their academic journey. Together, we will build the leaders of tomorrow."</p>
+                        <p><strong>- Dr. Sarah Johnson, Principal</strong></p>
+                    </div>
+                    <div class="welcome-image">
+                        <img src="https://ambikasecondaryschool.edu.np/static/img/eventPrincipal.jpg" alt="Principal">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" style="background: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Shree Ambika Secondary School</h2>
+            
+            <!-- Mission & Vision -->
+            <div class="mission-vision" data-aos="fade-up">
+                <div class="mission">
+                    <i class="fas fa-bullseye" style="font-size: 2rem; color: #2c5aa0; margin-bottom: 1rem;"></i>
+                    <h3>Our Mission</h3>
+                    <p>To provide exceptional education that empowers students to become confident, creative, and compassionate global citizens who contribute positively to society through innovation, leadership, and service.</p>
+                </div>
+                <div class="vision">
+                    <i class="fas fa-eye" style="font-size: 2rem; color: #2c5aa0; margin-bottom: 1rem;"></i>
+                    <h3>Our Vision</h3>
+                    <p>To be a leading educational institution recognized for academic excellence, character development, and preparing students for success in an ever-changing global landscape.</p>
+                </div>
+            </div>
+
+            <!-- Team Section -->
+            <h3 class="section-title" data-aos="fade-up" style="font-size: 2rem; margin-top: 3rem;">Our Faculty</h3>
+            <div class="team-grid" data-aos="fade-up">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Dr. Michael Chen">
+                    <h4>Dr. Michael Chen</h4>
+                    <p>Head of Science Department</p>
+                    <p>Ph.D. in Physics, 15+ years experience</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Prof. Emily Rodriguez">
+                    <h4>Prof. Emily Rodriguez</h4>
+                    <p>Mathematics Department</p>
+                    <p>M.Sc. Mathematics, 12+ years experience</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Mr. David Thompson">
+                    <h4>Mr. David Thompson</h4>
+                    <p>English Literature</p>
+                    <p>M.A. English Literature, 10+ years experience</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Ms. Lisa Wang">
+                    <h4>Ms. Lisa Wang</h4>
+                    <p>Computer Science</p>
+                    <p>M.Tech Computer Science, 8+ years experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section" style="background: white; padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Our Courses</h2>
+            <div class="courses-grid" data-aos="fade-up">
+                <div class="course-card">
+                    <h3>Grade 11 - Science Stream</h3>
+                    <ul>
+                        <li>Physics</li>
+                        <li>Chemistry</li>
+                        <li>Biology</li>
+                        <li>Mathematics</li>
+                        <li>English</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="downloadSyllabus('grade11-science')">Download Syllabus</a>
+                </div>
+                <div class="course-card">
+                    <h3>Grade 12 - Science Stream</h3>
+                    <ul>
+                        <li>Advanced Physics</li>
+                        <li>Advanced Chemistry</li>
+                        <li>Advanced Biology</li>
+                        <li>Advanced Mathematics</li>
+                        <li>English</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="downloadSyllabus('grade12-science')">Download Syllabus</a>
+                </div>
+                <div class="course-card">
+                    <h3>Management Studies</h3>
+                    <ul>
+                        <li>Business Studies</li>
+                        <li>Economics</li>
+                        <li>Accountancy</li>
+                        <li>Marketing</li>
+                        <li>Entrepreneurship</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="downloadSyllabus('management')">Download Syllabus</a>
+                </div>
+                <div class="course-card">
+                    <h3>Technical Education</h3>
+                    <ul>
+                        <li>Computer Programming</li>
+                        <li>Web Development</li>
+                        <li>Database Management</li>
+                        <li>Network Administration</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="downloadSyllabus('technical')">Download Syllabus</a>
+                </div>
+                <div class="course-card">
+                    <h3>Law Preparation</h3>
+                    <ul>
+                        <li>Constitutional Law</li>
+                        <li>Legal Studies</li>
+                        <li>Ethics & Governance</li>
+                        <li>Critical Reasoning</li>
+                        <li>Legal Writing</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="downloadSyllabus('law')">Download Syllabus</a>
+                </div>
+                <div class="course-card">
+                    <h3>Arts & Humanities</h3>
+                    <ul>
+                        <li>Literature</li>
+                        <li>History</li>
+                        <li>Philosophy</li>
+                        <li>Psychology</li>
+                        <li>Sociology</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="downloadSyllabus('arts')">Download Syllabus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+  <section id="admissions" class="section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 0;">
+  <div class="container">
+    <h2 class="section-title" style="color: white;" data-aos="fade-up">Admissions</h2>
+    <div class="admission-form" data-aos="fade-up">
+      <h3 style="text-align: center; margin-bottom: 2rem; color: #333;">Apply for Admission</h3>
+      <form id="admissionForm">
+        <div class="form-group">
+          <label for="fullName">Full Name *</label>
+          <input type="text" id="fullName" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth *</label>
+          <input type="date" id="dob" required>
+        </div>
+        <div class="form-group">
+          <label for="course">Preferred Course *</label>
+          <select id="course" required>
+            <option value="">Select a course</option>
+            <option value="Grade 11 - Science">Grade 11 - Science</option>
+            <option value="Grade 12 - Science">Grade 12 - Science</option>
+            <option value="Management Studies">Management Studies</option>
+            <option value="Technical Education">Technical Education</option>
+            <option value="Law Preparation">Law Preparation</option>
+            <option value="Arts & Humanities">Arts & Humanities</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="previousSchool">Previous School/Institution</label>
+          <input type="text" id="previousSchool">
+        </div>
+        <div class="form-group">
+          <label for="parentName">Parent/Guardian Name *</label>
+          <input type="text" id="parentName" required>
+        </div>
+        <div class="form-group">
+          <label for="parentPhone">Parent/Guardian Phone *</label>
+          <input type="tel" id="parentPhone" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address *</label>
+          <textarea id="address" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="message">Additional Information</label>
+          <textarea id="message" rows="3" placeholder="Any additional information you'd like us to know..."></textarea>
+        </div>
+        <button type="submit" class="btn" style="width: 100%; font-size: 1.1rem;">Submit Application</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background: #f8f9fa; padding: 100px 0;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+            
+            <div class="contact-info" data-aos="fade-up">
+                <div class="contact-details">
+                    <div style="text-align: center; margin-bottom: 2rem;">
+                        <div class="logo" style="font-size: 2rem; justify-content: center;">
+                            <i class="fas fa-graduation-cap"></i>
+                           Shree Ambika Secondary School
+
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Office Hours:</strong><br>
+                            sun - Fri: 8:00 AM - 5:00 PM<br>
+                            Sat: 9:00 AM - 3:00 PM
+                        </div>
+                    </div>
+                </div>
+                
+              <div class="map-container">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1762.1138453432622!2d83.899102!3d28.287753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDE3JzE1LjkiTiA4M8KwNTMnNTYuOCJF!5e0!3m2!1sen!2snp!4v1690000000000!5m2!1sen!2snp" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="admission-form" data-aos="fade-up" style="margin-top: 3rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: #333;">Get in Touch</h3>
+                <form action="https://formsubmit.co/ayushacharya080@gmail.com" method="POST" id="contactForm">
+                    <input type="hidden" name="_subject" value="New Contact Form Submission">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                    
+                    <div class="form-group">
+                        <label for="contactName">Full Name *</label>
+                        <input type="text" id="contactName" name="name" required>
+                        <div class="error" id="contactNameError"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address *</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                        <div class="error" id="contactEmailError"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactPhone">Phone Number</label>
+                        <input type="tel" id="contactPhone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Admission Information">Admission Information</option>
+                            <option value="Course Details">Course Details</option>
+                            <option value="Fee Structure">Fee Structure</option>
+                            <option value="Campus Visit">Campus Visit</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div class="error" id="subjectError"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message *</label>
+                        <textarea id="contactMessage" name="message" rows="5" required placeholder="Please describe your inquiry in detail..."></textarea>
+                        <div class="error" id="contactMessageError"></div>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; font-size: 1.1rem;">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links" data-aos="fade-up">
+                <a href="https://facebook.com/excellenceacademy" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://linkedin.com/company/excellenceacademy" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:info@excellenceacademy.edu.np" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #2c5aa0; color: white; text-align: center; padding: 2rem 0;">
+        <div class="container">
+            <p>&copy; 2025 Shree Ambika Secondary School. All rights reserved.</p>
+            <p>Empowering minds, shaping futures.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    
+   
+</body>
+</html>
+<!-- </html> class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Address:</strong><br>
+                            123 Education Street, Knowledge District<br>
+                            Kathmandu, Nepal 44600
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone:</strong><br>
+                            +977-1-4567890
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email:</strong><br>
+                            info@excellenceacademy.edu.np
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i -->
